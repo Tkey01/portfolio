@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>My recent pet-projects</h1>
+    <div class="container">
+      <div class="box">
+        <a>
+        <h2 class="name">Multiselect</h2>
+        <a
+          href="https://tkey01.github.io/multiselect/"
+          class="buy"
+          target="_blank"
+          >Show</a
+        >
+        <div class="circle"></div>
+        <img src="images/javascript-icon-yellow.svg" alt="" class="product" />
+      </div>
+      <div class="box">
+        <h2 class="name">Canvas notes</h2>
+        <a href="https://tkey01.github.io/notes/" class="buy" target="_blank"
+          >Show</a
+        >
+        <div class="circle"></div>
+        <img src="images/javascript-icon-blue.svg" alt="" class="product" />
+      </div>
+      <div class="box">
+        <h2 class="name">This project</h2>
+        <a href="./index.html" class="buy">Show</a>
+        <div class="circle"></div>
+        <img src="images/javascript-icon-red.svg" alt="" class="product" />
+      </div>
+    </div>
+    <script src="valina-tilt-min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+  </body>
+</html>
