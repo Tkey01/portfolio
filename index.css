@@ -68,7 +68,7 @@ h1 {
 
 .container .buy {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 50%;
   transform-style: preserve-3d;
   transform: translate3d(-50%, 0, 75px);
@@ -77,13 +77,13 @@ h1 {
   padding: 10px 25px;
   border-radius: 30px;
   text-decoration: none;
-  transition: 0.5s;
+  transition: all 0.3s linear;
   opacity: 0;
   z-index: 10;
 }
 
 .container .box:hover .buy {
-  bottom: 30px;
+  bottom: 40px;
   opacity: 1;
 }
 
